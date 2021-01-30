@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+    <body>
+        <h1> Daniella's Rainbow</h1>
+            <ul>
+                    {% for rainbow in rainbows %}
+                        {% set link = 'http:127.0.0.1:5000/' + color %}
+                            <li><a href ={{link}}> Click here : {{rainbow}}</a></li>
+                    {% endfor %}
+            </ul>
+      
+
+    </body>
+</html>
